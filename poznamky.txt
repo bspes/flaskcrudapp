@@ -1,5 +1,0 @@
-https://scotch.io/tutorials/getting-started-with-flask-a-python-microframework
-
-$ export FLASK_CONFIG=development
-$ export FLASK_APP=run.py
-$ flask run
