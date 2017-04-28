@@ -10,6 +10,7 @@ Prvotna inicializacia virtualenv
     git clone https://github.com/bspes/flaskcrudapp.git
     cd flaskcrudapp
     pip install -r requirements.txt
+Nasledne je potrebne zmenit cestu v instance/config.py a test.py k databaze
 
 Inicializacia virtualenv pre vyvoj
 ----------------
