@@ -16,7 +16,7 @@ class TestBase(TestCase):
         config_name = 'testing'
         app = create_app(config_name)
         app.config.update(
-            SQLALCHEMY_DATABASE_URI='sqlite:////home/bodo/pracovny/python/dream-team/app/dream-team-test.db'
+            SQLALCHEMY_DATABASE_URI='sqlite:///dream-team-test.db'
         )
         return app
 
