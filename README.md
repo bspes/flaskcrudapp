@@ -3,10 +3,8 @@ FlaskCRUDapp
 
 Prvotna inicializacia virtualenv
 ----------------
-    source /home/bodo/.local/bin/virtualenvwrapper.sh
-    export WORKON_HOME=~/Envs
-    mkvirtualenv flask-env
-    workon flask-venv
+    python3 -m venv venv
+    source venv/bin/activate
     git clone https://github.com/bspes/flaskcrudapp.git
     cd flaskcrudapp
     pip install -r requirements.txt
@@ -14,9 +12,7 @@ Nasledne je potrebne zmenit cestu v instance/config.py a test.py k databaze
 
 Inicializacia virtualenv pre vyvoj
 ----------------
-    source /home/bodo/.local/bin/virtualenvwrapper.sh
-    export WORKON_HOME=~/Envs
-    workon flask-venv
+    source venv/bin/activate
 
 Spustenie app v devel mode
 ----------------
