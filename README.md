@@ -8,13 +8,11 @@ Prvotna inicializacia
     git clone https://github.com/bspes/flaskcrudapp.git
     cd flaskcrudapp
     pip install -r requirements.txt
-    mkdir instance
-    Vytvor subor instance/config.py s nasledujucim obsahom
-    SECRET_KEY = 'strasne-tajny-kluc'
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///dream-team.db'
+    #edituj SECRET_KEY v instance/config.py
     flask db init
     flask db migrate -m "Initial migration"
     flask db upgrade
+    #edituj create_admin_user.py, daj tam email a heslo co pouzijes
     python3 create_admin_user.py
 
 Inicializacia virtualenv pre vyvoj
